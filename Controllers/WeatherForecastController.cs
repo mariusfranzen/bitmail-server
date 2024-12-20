@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace bitmail_server.Controllers
+namespace BitmailServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]

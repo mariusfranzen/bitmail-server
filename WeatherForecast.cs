@@ -1,4 +1,4 @@
-namespace bitmail_server
+namespace BitmailServer
 {
     public class WeatherForecast
     {
