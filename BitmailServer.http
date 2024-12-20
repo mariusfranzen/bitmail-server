@@ -1,6 +1,9 @@
-@BitmailServer_HostAddress = http://localhost:5084
+@BitmailServer_HostAddress = http://localhost:7273
 
-GET {{BitmailServer_HostAddress}}/weatherforecast/
+POST {{BitmailServer_HostAddress}}/api/email/send
 Accept: application/json
 
 ###
+
+GET {{BitmailServer_HostAddress}}/api/email/inbox
+Accept: application/json
